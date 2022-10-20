@@ -1,0 +1,197 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+p {
+    color: #8f8f8f;
+}
+
+#title {
+    background-color: #ff4c68;
+    
+}   
+
+.container-fluid {
+    padding: 3% 15% 2% 15%;
+}
+
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    
+    font-weight: 100;
+}
+
+.container {
+    padding: 0;
+}
+
+/* Download Button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 44%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 20%
+
+}
+
+@media (max-width: 1028px)
+{
+    .title-image {
+        position: static;
+        transform: rotate(0);
+
+    }
+
+    h1 {
+        text-align: center;
+    }
+    #title {
+        text-align: center;
+    }
+
+
+
+}
+
+/* SECTION 2  */
+
+#features {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+.fa-circle-check, .fa-bullseye, .fa-heart {
+    font-size: 3rem;
+    margin: 1rem;
+    color: #ef8172;
+}
+
+.fa-circle-check:hover {
+    color: #ff4c68;
+}
+.fa-bullseye:hover {
+    color: #ff4c68;
+}
+
+.fa-heart:hover {
+    color: #ff4c68;
+}
+
+/* SECTION 3 */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 15%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 2%;
+    
+}
+
+.sponsor {
+    width: 15%;
+    margin: 1% 20px 50px 20px;
+    
+}
+
+/* SECTION 4 */
+
+.pricing-column{
+    padding: 3% 2%;
+    
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+/* SECTION 5  */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    
+}
+
+.find {
+    padding: 3%;
+    color: white;
+}
+
+.download-button2 {
+    margin: 0 1% 4% 1%
+}
+
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 7% 15%;
+    margin: 0;
+}
+
+.bottom-icon {
+    padding: 15px 10px;
+}
